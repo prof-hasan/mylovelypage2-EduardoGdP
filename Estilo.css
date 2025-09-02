@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(33, 33, 33);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    color: white;
+}
+#fotin {
+    font-family: Monte;
+    font-size: 10px;
+    position: absolute;
+    right: 480px;
+    bottom: 170px;
+}
+#cabra {
+    float: right;
+    position: relative;
+    right: 200px;
+    bottom: 500px;
+}
+#conta {
+    position: relative;
+}
+#start {
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+}
+header {
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+footer {
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+#BS {
+    color: blueviolet;
+    text-shadow: 2px 2px 0px rgb( 40 40 100);
+    font-family: Metal Mania;
+    display: inline;
+}
+.ass {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 40%;
+    max-width: 300px;
+    display: inline-block;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+.ass img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    border: 5px solid white;
+}
+.hazard {
+    text-align: center;
+    font-size: 30px;
+}
+.hazard img {
+    margin-left: 20px;
+    width: 600px;
+    height: auto;
+}
+.titulo {
+    color: white;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: medium;
+    background-color: rgba(150, 150, 150, 0.5);
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+    max-width: 400px;
+    bottom: 10px;
+}
+.integrante {
+    position: relative;
+    width: 50%;
+    max-width: 150px;
+    display: inline-block;
+    align-items: center;
+    margin-right: 1%;
+    margin-left: 100px;
+}
+.integrante img {
+    width: 100%;
+    max-width: 150px;
+    border: 4px solid white;
+}
+.bio {
+    font-family: monospace;
+    color: black;
+    background-color: white;
+    font-size: medium;
+    position: absolute;
+    padding: 5px;
+    bottom: 10px;
+    width: 50%;
+    max-width: 150px;
+}
+table {
+    margin: auto;
+    width: 800px;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 8px 12px;
+    border: 1px solid white;
+}
+
+nav {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav a {
+    font-family: Monte;
+    color: white;
+    text-shadow: crimson 2px 2px 0px;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:active {
+    position: relative;
+    left: -3px;
+    top: -3px;
+}
+nav a:hover {
+    color: blueviolet;
+    text-shadow: 2px 2px 0px rgb( 40 40 100);
+    text-decoration: underline;
+}
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+}
+#legenda {
+    font-size:  15px;
+    color: gray;
+}
+header h1 {
+    font-family: Metal Mania;
+    text-shadow: 3px 3px 0px crimson;
+    font-size: 40px;
+}
+header h2 {
+    font-family: Bebas Neue;
+    text-shadow: 2px 2px 0px crimson;
+    font-size: 35px;
+}
+header::selection {
+    background-color: crimson;
+}
+h1, h2 {
+    font-family: Monte;
+    margin: 20px 25px;
+}
+
+p {
+    font-family: Monte;
+    font-size: 20px;
+    width: 500px;
+    height: auto;
+    padding: 5px;
+    margin: 45px 30px;
+    color: white;
+}
+@font-face {
+  font-family: 'Metal Mania';
+  src: url(fonts/MetalMania-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(fonts/BebasNeue-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Monte';
+    src: url(fonts/Montserrat-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/Roboto-VariableFont_wdth\,wght.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
